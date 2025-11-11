@@ -1,0 +1,63 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Image directories
+train/
+val/
+test/
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Model files and weights
+*.pt
+*.pth
+*.h5
+*.pkl
+*.bin
+*.ckpt
+best_*_model/
+checkpoints/
+best_lstm_model.pt
+best_distilbert_model/
+
+# Data files
+*.csv
+*.npy
+*.npz
+huffpost_processed_*/
+evm_lstm/
+
+# Large notebook outputs (keep the notebooks but they might be large)
+# Uncomment if you want to ignore specific large notebooks
+# pytorch_chapter4_transferlearning.ipynb
